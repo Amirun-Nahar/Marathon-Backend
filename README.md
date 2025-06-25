@@ -27,7 +27,7 @@ This project is a full-stack web application designed to streamline the manageme
 * **Event Listing:** Browse and view details of upcoming and past marathon events.
 * **Participant Registration:** Users can register for events, providing necessary details.
 * **User Authentication:** Secure signup and login for participants and organizers.
-* **Admin Dashboard:** (Assumed) Manage events, view registrations, and publish results.
+* **Admin Dashboard:** Manage events, view registrations, and publish results.
 * **Responsive Design:** Optimized for seamless experience across various devices.
 * **RESTful API:** Robust backend handling data operations.
 
@@ -39,8 +39,8 @@ This project relies on a few key dependencies for both frontend and backend oper
 * `react`: Core React library
 * `react-router-dom`: For client-side routing
 * `axios`: For making HTTP requests to the backend
-* `tailwindcss` or `bootstrap` (or similar for styling - *adjust if you used something else*)
-* *Add any other significant frontend libraries you used from your `package.json`*
+* `tailwindcss` or `bootstrap` (or similar for styling)
+
 
 **Backend (Node.js/Express.js):**
 * `express`: Web framework for Node.js
@@ -49,7 +49,7 @@ This project relies on a few key dependencies for both frontend and backend oper
 * `dotenv`: For loading environment variables
 * `bcryptjs`: For password hashing
 * `jsonwebtoken`: For authentication (JWTs)
-* *Add any other significant backend libraries you used from your `package.json`*
+
 
 ## How to Run Locally
 
@@ -67,7 +67,7 @@ Make sure you have the following installed:
 
 1.  **Clone the backend repository:**
     ```bash
-    git clone [https://github.com/Amirun-Nahar/Marathon-Backend.git](https://github.com/Amirun-Nahar/Marathon-Backend.git)
+    https://github.com/Amirun-Nahar/Marathon-Backend.git
     ```
 2.  **Navigate into the backend directory:**
     ```bash
@@ -78,14 +78,8 @@ Make sure you have the following installed:
     npm install
     # or yarn install
     ```
-4.  **Create a `.env` file in the `Marathon-Backend` directory** and add your environment variables. Example:
-    ```
-    PORT=5000
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret_key
-    ```
-    *Replace `your_mongodb_connection_string` with your MongoDB URI.*
-5.  **Start the backend server:**
+
+4.  **Start the backend server:**
     ```bash
     npm start
     # or node server.js (if your main file is named server.js)
@@ -96,13 +90,13 @@ Make sure you have the following installed:
 
 1.  **Clone the frontend repository:**
     ```bash
-    git clone [https://github.com/Amirun-Nahar/Marathon-Frontend.git](https://github.com/Amirun-Nahar/Marathon-Frontend.git)
+    https://github.com/Amirun-Nahar/Marathon-Backend
     ```
-    *(If your frontend is in the same repo, skip this and assume it's in a subfolder like `client`)*
+   
 2.  **Navigate into the frontend directory:**
     ```bash
     cd Marathon-Frontend
-    # or cd client (if it's a subfolder in a monorepo)
+    # or cd client 
     ```
 3.  **Install frontend dependencies:**
     ```bash
