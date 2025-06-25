@@ -122,6 +122,6 @@ Make sure you have the following installed:
 
 ## Links
 
-* **Live Demo:** [https://runlytic-marathon.netlify.app](https://runlytic-marathon.netlify.app)
-* **Frontend Repository:** [https://github.com/Amirun-Nahar/Marathon-Frontend](https://github.com/Amirun-Nahar/Marathon-Frontend) *(<-- Replace with your actual frontend repo link)*
-* **Backend Repository:** [https://github.com/Amirun-Nahar/Marathon-Backend](https://github.com/Amirun-Nahar/Marathon-Backend) *(<-- Replace with your actual backend repo link)*
+* **Live Demo:** [https://runlytic-marathon.netlify.app/]
+* **Frontend Repository:** [https://github.com/Amirun-Nahar/Marathon-Backend/tree/main]*
+* **Backend Repository:** [https://github.com/Amirun-Nahar/Marathon-Backend]*
