@@ -5,7 +5,7 @@ This project is a full-stack web application designed to streamline the manageme
 <!-- Project Overview -->
 <img src="https://ibb.co/PzVg2X8j">
 <img src="https://ibb.co/KjMpr2Bn">
-<img src="https://ibb.co/d0r2xMN9">
+<a href="https://ibb.co/KjMpr2Bn"><img src="https://i.ibb.co/7Jwd1nBh/Upcoming-Events.png" alt="Upcoming-Events" border="0"></a>
 
 ## Technologies Used
 
