@@ -3,9 +3,12 @@
 This project is a full-stack web application designed to streamline the management of marathon events, participant registrations, and results. It provides a user-friendly interface for event organizers and participants to interact with event data.
 
 <!-- Project Overview -->
-<img src="https://ibb.co/PzVg2X8j">
-<img src="https://ibb.co/KjMpr2Bn">
-<a href="https://ibb.co/KjMpr2Bn"><img src="https://i.ibb.co/7Jwd1nBh/Upcoming-Events.png" alt="Upcoming-Events" border="0"></a>
+<p align="center">
+   <a href="https://ibb.co/PzVg2X8j"><img src="https://i.ibb.co/FqdzQZt3/Homepage.png" alt="Homepage" border="0"></a>
+   <a href="https://ibb.co/d0r2xMN9"><img src="https://i.ibb.co/TBk8d2QX/Data.png" alt="Data" border="0"></a>
+   <a href="https://ibb.co/KjMpr2Bn"><img src="https://i.ibb.co/7Jwd1nBh/Upcoming-Events.png" alt="Upcoming-Events" border="0"></a>
+  
+</p>
 
 ## Technologies Used
 
