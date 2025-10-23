@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const marathonRoutes = require('./marathonRoutes');
 const registrationRoutes = require('./registrationRoutes');
+const aiCoachRoutes = require('./aiCoachRoutes');
 const jwt = require('jsonwebtoken');
 
 // JWT Token Generation
@@ -22,5 +23,6 @@ router.post('/jwt', async (req, res) => {
 // Marathon routes
 router.use('/marathons', marathonRoutes);
 router.use('/registrations', registrationRoutes);
+router.use('/ai-coach', aiCoachRoutes);
 
 module.exports = router; 
