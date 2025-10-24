@@ -3,9 +3,12 @@ const Marathon = require('../models/Marathon');
 // Get all marathons
 const getAllMarathons = async (req, res) => {
   try {
+    console.log('Getting all marathons...');
     const marathons = await Marathon.find().sort({ createdAt: -1 });
+    console.log(`Found ${marathons.length} marathons`);
     res.json(marathons);
   } catch (error) {
+    console.error('Error getting marathons:', error);
     res.status(500).json({ message: error.message });
   }
 };

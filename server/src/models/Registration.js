@@ -48,5 +48,6 @@ const registrationSchema = new mongoose.Schema({
   },
 });
 
-const Registration = mongoose.model('Registration', registrationSchema);
+// Prevent model recompilation
+const Registration = mongoose.models.Registration || mongoose.model('Registration', registrationSchema);
 module.exports = Registration; 

@@ -48,6 +48,11 @@ const marathonSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  price: {
+    type: Number,
+    required: true,
+    min: 0,
+  },
   createdAt: {
     type: Date,
     default: Date.now,
@@ -71,5 +76,6 @@ marathonSchema.pre('findOneAndUpdate', function(next) {
   next();
 });
 
-const Marathon = mongoose.model('Marathon', marathonSchema);
+// Prevent model recompilation
+const Marathon = mongoose.models.Marathon || mongoose.model('Marathon', marathonSchema);
 module.exports = Marathon; 
